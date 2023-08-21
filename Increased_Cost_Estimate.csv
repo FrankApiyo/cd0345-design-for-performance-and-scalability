@@ -1,0 +1,7 @@
+AWS Service ,Cost
+Master and 2 read replicas RDS DBs (30GB storage),"1,159.50"
+4 Web servers,$280
+4 Application servers,$280
+2 Application load balancers,32.82
+Cloud front ,2
+S3,4
