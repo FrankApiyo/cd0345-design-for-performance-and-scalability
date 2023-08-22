@@ -1,7 +1,19 @@
-AWS Service,Cost,
-Master and read replica RDS DBs (30GB storage),$330,Dabatase costs can be reduced by using only one instance
-2 Web Servers,140,
-2 Applicatin Servers,140,
-2 Application load balancers,32.82,
-Cloud front ,0.5,
-S3,1,
+Estimate summary,,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,,
+0,6891.98,82703.76,USD,,,,,,
+,,* Includes upfront cost,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Detailed Estimate,,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,4616.14,55393.68,USD,,"Storage volume (General Purpose SSD (gp2)), Storage amount (100 GB), Nodes (2), Instance Type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Cost for one month of retention (per vCPU per month) (1.5000000000), Cost for each additional month of retention (per vCPU per month) (0.0631000000), Cost for total retention (per vCPU per month) (1.63), Additional backup storage (100 GB)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,1950.56,23406.72,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (x2gd.2xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,324.85,3898.2,USD,,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,0.43,5.16,USD,,Data transfer out to internet (5 GB per month)
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Acknowledgement,,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,,
+,,,,,,,,,
+Rationale (Which services changed?) The number of Application and web server instances have been reduced from 8 to 4. This still allows for redundancy and HA but lowers cost,,,,,,,,,
