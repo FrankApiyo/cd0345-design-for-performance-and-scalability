@@ -1,5 +1,6 @@
 Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
 
 # Poor practice 1
-
+InstanceRolePolicy-C3 allows all actions on S3 - it should be limited to either write only or read, write and put
 # Poor practice 2
+ssh access to EC2s should be limited to a specific IP or a specific set of IPs

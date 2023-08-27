@@ -1,3 +1,4 @@
 Research and analyze which of the vulnerabilities appear to be related to the code that was deployed for the environment in this project.
 
-Bonus - provide recommendations on how to remediate the vulnerabilities.
+Both of the 2 EC2 instances seem to have port 22 accessible from any IP on the internet.
+We should restrict to a specific IP (probably a bastion host)

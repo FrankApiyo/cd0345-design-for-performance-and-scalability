@@ -1,13 +1,14 @@
 # Identify tools that will allow you to do the following:
 
 ## Scan infrastructure as code templates
-
+terrascan
 ### Example vulnerability
 
 ##Scan AMI’s or containers for OS vulnerabilities
-
+trivy
 ### Example vulnerability
-
+vulnerability in an application package
 ##Scan an AWS environment for cloud configuration vulnerabilities
-
+Amazon inspector
 ### Example vulnerability
+An EC2 instance reachable for internet gateway
